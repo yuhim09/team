@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2em;
+}
+
+.btns-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field,
+.input-field:hover,
+.input-field:active,
+.input-field:focus {
+    border: 1.5px solid gray;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-field {
+    height: 60px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif; 
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin: 0 .2em;
+}
+
+.btn {
+    height: 60px;
+    width: 60px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: .2em;
+    border-radius: 5px;
+    user-select: none;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.history {
+    width: 50vw;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    border-left: 1px solid gray;
+    height: calc(300px + 2em);
+}
