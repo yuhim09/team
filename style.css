@@ -3,6 +3,7 @@ body{
 }
 .games-month{
     display: flex;
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -10,12 +11,15 @@ body{
 }
 .games-month{
     display: flex;
+    margin-top: 150px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .games-month-items{
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
     gap: 50px;
     font-size: 25px;
 }
@@ -56,4 +60,228 @@ body{
 
 .btn:hover {
     background-color: #f1f1f1;
+}
+
+body{
+    margin: 0;
+}
+
+.header-inner{
+    padding: 16.0px 22.0px 16px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 22.5px;
+    list-style: none;
+
+}
+.header-list a{
+    text-decoration: none;
+    font-family: 'Aldrich';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    color: #0000B3;
+}
+.header-title{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #0000B3;
+    margin-left: 29px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("./fon.png");
+    background-size: cover;
+    max-height: max-content;
+    height: 600px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 40px;
+    font-family: 'Audiowide', sans-serif;
+
+}
+h1{
+    margin: 0;
+    margin-top: -90px;
+}
+p{
+    margin: 0;
+}
+.koleso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(fon.png);
+    max-height: max-content;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Audiowide', sans-serif;
+
+}
+.reviews{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items:center ;
+}
+.reviews h1 
+{
+    margin-bottom: 30px;
+    /* Client Reviews */
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+/* identical to box height, or 120% */
+
+color: #0000B3;
+
+
+}
+.item {
+    padding: 24px 24px 48px 24px;
+    border: 5px solid #3C00B3;
+    width: 320px;
+    height: 188px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 24px ;
+}
+.reviews h6
+{
+    margin: 4px;
+    color: #0000B3;
+    font-size: 20px;
+}
+span{
+    color: #007D7D;
+}
+.reviews p
+{
+    color: #001F7D;
+}
+h6{
+margin-left: 65px;
+margin-top: -50px;
+}
+span{
+    margin-left: 65px;
+}
+.item-bg{
+    background-color: #001F7D;
+}
+.item-bg p{
+    color: rgb(227, 227, 211);
+}
+.item-bg h6{
+    color: #ebe4e4;
+}
+.item-bg span{
+    color: #918b8b;
+}
+.choose{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.choose__items{
+    color: #9c1717;
+    padding-bottom: 30px;
+    color: #3C00B3;
+}
+.choose__item{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.choose h6{
+        margin: 4px;
+        color: #0000B3;
+        font-size: 20px;
+}
+.choose__item{
+    padding: 24px 24px 48px 24px;
+    width: 432px;
+    height: 184px;
+}
+.item {
+    padding: 24px 24px 48px 24px;
+    border: 5px solid #3C00B3;
+    width: 320px;
+    height: 188px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 24px ;
+}
+h6{
+    margin: 4px;
+    color: #0000B3;
+    font-size: 20px;
+}
+span{
+    color: #007D7D;
+}
+
+p{
+    color: #fdfdff;
+}
+h6{
+margin-left: 65px;
+margin-top: -50px;
+}
+.choose__items{
+    display: flex;
+    gap: 20px;
+}
+.choose__item p{
+    text-align: center;
+}
+.choose{
+    background-color: #0000B3;
+    margin-top: 150px;
+    padding-top: 130px;
+}
+.choose h1{
+    color: #ebe4e4;
+    margin-bottom: 30px;
+    font-size: 30px;
 }
