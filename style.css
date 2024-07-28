@@ -22,15 +22,16 @@ body{
 .container {
     display: flex;
     justify-content: space-between;
+    width: 42%;
     align-items: center;
-    background-color: #0033cc;
+    background-color: #001F7D;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .image-section img {
-    width: 500px;
+    width: 100%;
     height: auto;
     border-radius: 30px;
 }
